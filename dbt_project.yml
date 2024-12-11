@@ -44,3 +44,5 @@ models:
       +materialized: view
     mart:
       +materialized: tanble
+      finance:
+        +schema: finance
