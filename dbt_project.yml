@@ -43,6 +43,7 @@ models:
     intermediate:
       +materialized: view
     mart:
-      +materialized: tanble
+      +materialized: table
       finance:
         +schema: finance
+        
